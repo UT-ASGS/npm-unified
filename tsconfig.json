@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs"
+  },
+  "filesGlob": [
+    "./typings/main.d.ts",
+    "./index.d.ts",
+    "./test.ts"
+  ],
+  "files": [
+    "./typings/main.d.ts",
+    "./index.d.ts",
+    "./test.ts"
+  ],
+  "atom": {
+    "formatOnSave": true,
+    "rewriteTsconfig": true
+  }
+}

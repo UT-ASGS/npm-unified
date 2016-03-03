@@ -1,3 +1,5 @@
 
 typings/
 .DS_Store
+
+*.js
