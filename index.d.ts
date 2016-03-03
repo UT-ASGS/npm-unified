@@ -23,6 +23,19 @@ declare namespace unified {
         Compiler: Function;
     }
 
+    /** Node represents any unit in NLCST hierarchy. */
+    export interface Node {
+        /** The string name of the node type */
+        type: string;
+        /** Data associated with any node, must be stringifyable. */
+        data: Object;
+        /** Children Node that only exists on a Parent Node */
+        children?: Node[];
+        /** The value of the node, only exists on Text Nodes */
+        value?: string;
+    }
+
+
     export class Processor {
         /**
          * Note that all methods on the instance are also available as functions on the constructor, which, when invoked, create a new instance.
