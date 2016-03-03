@@ -1,0 +1,7 @@
+{
+  "name": "unified",
+  "main": "index.d.ts",
+  "dependencies": {
+    "vfile": "github:UT-ASGS/npm-vfile#3934dbfc91fff222a290921f12e977c67e995ff6"
+  }
+}
